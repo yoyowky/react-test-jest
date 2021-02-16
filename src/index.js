@@ -4,6 +4,7 @@ import App from './App';
 import { Provider } from 'react-redux';
 import { store } from './createStore';
 
+// need to wrap the app with provider to pass the store
 ReactDOM.render(
     <Provider store={store}>
         <App />
